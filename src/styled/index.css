@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section-title {
+    @apply text-[32px] font-[500];
+  }
+  .title_size {
+    @apply text-[32px];
+  }
+  .paragraph_size {
+    @apply text-[15px];
+  }
+  .section_padding {
+    @apply py-20;
+  }
+  .nav-btn {
+    @apply rounded px-5 py-2.5 overflow-hidden bg-primary relative hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300;
+  }
+  .form-control {
+    @apply block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none;
+  }
+  .form-select {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md block w-full p-2.5;
+  }
+}
+
+@layer utilities {
+  .accordion-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
