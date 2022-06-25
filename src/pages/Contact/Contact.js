@@ -1,13 +1,10 @@
 import React from "react";
-import NavBar from "../../Shared/NavBar";
-import Footer from "../../Shared/Footer";
 import { Link } from "react-router-dom";
 import { MdOutlinePhoneIphone } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-      <NavBar />
       <div className="container section-padding font-JosefinSans mt-36">
         <div>
           <h3 className="text-5xl font-bold text-heading mb-3">
@@ -102,7 +99,6 @@ const Contact = () => {
           </div>
         </section>
       </div>
-      <Footer />
     </>
   );
 };

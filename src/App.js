@@ -5,8 +5,8 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Services from "./pages/Services/Services";
 import ServiceArea from "./pages/ServiceArea/ServiceArea";
-import NavBar from "./Shared/NavBar";
-import Footer from "./Shared/Footer";
+import NavBar from "./Shared/NavBar/NavBar";
+import Footer from "./Shared/Footer/Footer";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Contact from "./pages/Contact/Contact";
 function App() {

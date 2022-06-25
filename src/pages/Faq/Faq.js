@@ -29,7 +29,8 @@ const Faq = () => {
       </p>
       {faqQuestions.map((faq, index) => (
         <div
-          className="relative w-1/2 overflow-hidden mb-4 mx-auto"
+          className="relative w-1/2 overflow-hidden mb-4 mx-auto faq-shadow
+          "
           key={index}
         >
           <input
