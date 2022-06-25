@@ -16,7 +16,6 @@ const Home = () => {
       <OurServices />
       <CalculateCharge />
       <Testimonial />
-      <Faq />
     </>
   )
 }
