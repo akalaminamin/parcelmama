@@ -10,7 +10,7 @@ const Faq = () => {
     {
       title: "What kind of services does parcel mama offer?",
       description:
-        " parcel mama is a complete platform for providing delivery services for any business or personal needs. RedX also provides parcel delivery, bulk shipment, line hall, truck rental, loading-unloading, warehouse, logistics solution as a service and customized solution as required.",
+        " parcel mama is a complete platform for providing delivery services for any business or personal needs. parcel mama also provides parcel delivery, bulk shipment, line hall, truck rental, loading-unloading, warehouse, logistics solution as a service and customized solution as required.",
     },
     {
       title: "Want to know about your logistics charges?",
