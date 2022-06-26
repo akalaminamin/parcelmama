@@ -15,8 +15,8 @@ const NavBar = () => {
   }, [innerHeight])
   return (
     <>
-      {/* <TopNavBar /> */}
-      <header className={`bg-white py-2 shadow-md font-Rubik block left-0 w-full z-50 mb-16`}>
+      <TopNavBar />
+      <header className={`bg-white py-2 shadow-md font-Rubik sticky top-0 left-0 w-full z-50 mb-16`}>
         <nav className="container flex flex-col md:flex-row md:items-center items-start justify-between">
           {/* <div className="flex items-center justify-between w-full">
        <Link to="/">

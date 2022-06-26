@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-      <section className="hero_area bg-heroBg bg-no-repeat h-[700px] mt-14">
+      <section className="hero_area bg-heroBg bg-no-repeat h-[700px]">
         <div className="container flex items-center justify-center h-full">
           <div className="flex items-center justify-between flex-col md:flex-row gap-10 lg:gap-0">
             <div className="text-left">
