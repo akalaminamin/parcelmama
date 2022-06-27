@@ -7,9 +7,9 @@ import OurServices from "../Home/components/OurServices";
 import Testimonial from "../Home/components/Testimonial";
 import Track from "../Home/components/Track";
 
-const Services = () => {
+const Pricing = () => {
   return (
-    <section className="services font-Rubik">
+    <>
       <HeroSection /> 
       <Track />
       <Accordion />
@@ -17,8 +17,8 @@ const Services = () => {
       <CalculateCharge />
       <Testimonial />
       <Faq />
-    </section>
+    </>
   );
 };
 
-export default Services;
+export default Pricing;

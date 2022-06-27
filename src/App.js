@@ -9,6 +9,7 @@ import NavBar from "./Shared/NavBar/NavBar";
 import Footer from "./Shared/Footer/Footer";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Contact from "./pages/Contact/Contact";
+import Pricing from "./pages/Pricing/Pricing";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/servicesArea" element={<ServiceArea />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/contact" element={<Contact />} />

@@ -24,13 +24,16 @@
   .form-select {
     @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md block w-full p-2.5;
   }
+  .nav-item {
+    @apply my-1 text-sm font-medium text-gray-700 hover:text-primary transition-colors duration-200 transform  md:mx-4 md:my-0 border-b md:border-b-0 pb-4 md:pb-0 w-full md:w-auto;
+  }
 }
 
 @layer utilities {
   .accordion-shadow {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
-  .faq-shadow{
+  .faq-shadow {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   }
 }

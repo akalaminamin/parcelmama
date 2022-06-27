@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import TopNavBar from "./TopNavBar";
+import { NavHashLink } from 'react-router-hash-link';
+
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -45,35 +47,35 @@ const NavBar = () => {
             >
               <div className="flex flex-col md:flex-row md:mx-6 items-start md:items-center">
                 <NavLink
-                  className="my-1 text-sm font-medium text-gray-700 hover:text-primary transition-colors duration-200 transform  md:mx-4 md:my-0 border-b md:border-b-0 pb-4 md:pb-0 w-full md:w-auto"
+                  className={({isActive})=> isActive ? "nav-item text-primary" : " nav-item"}
                   to="/"
                   onClick={() => setOpen(!open)}
                 >
                   Home
                 </NavLink>
-                <NavLink
-                  className="my-1 text-sm font-medium text-gray-700 hover:text-primary transition-colors duration-200 transform  md:mx-4 md:my-0 border-b md:border-b-0 pb-4 md:pb-0 w-full md:w-auto"
-                  to="/services"
+                <NavHashLink
+                  className={({isActive})=> isActive ? "nav-item text-primary" : " nav-item"}
+                  to="/services#ourServices"
                   onClick={() => setOpen(!open)}
                 >
                   Services
-                </NavLink>
+                </NavHashLink>
                 <NavLink
-                  className="my-1 text-sm font-medium text-gray-700 hover:text-primary transition-colors duration-200 transform  md:mx-4 md:my-0 border-b md:border-b-0 pb-4 md:pb-0 w-full md:w-auto"
+                  className={({isActive})=> isActive ? "nav-item text-primary" : " nav-item"}
                   to="/servicesArea"
                   onClick={() => setOpen(!open)}
                 >
                   Services Area
                 </NavLink>
-                <NavLink
-                  className="my-1 text-sm font-medium text-gray-700 hover:text-primary transition-colors duration-200 transform  md:mx-4 md:my-0 border-b md:border-b-0 pb-4 md:pb-0 w-full md:w-auto"
-                  to="/pricing"
+                <NavHashLink
+                  className={({isActive})=> isActive ? "nav-item text-primary" : " nav-item"}
+                  to="/pricing#pricing"
                   onClick={() => setOpen(!open)}
                 >
                   Pricing
-                </NavLink>
+                </NavHashLink>
                 <NavLink
-                  className="my-1 text-sm font-medium text-gray-700 hover:text-primary transition-colors duration-200 transform  md:mx-4 md:my-0 border-b md:border-b-0 pb-4 md:pb-0 w-full md:w-auto"
+                  className={({isActive})=> isActive ? "nav-item text-primary" : " nav-item"}
                   to="/contact"
                   onClick={() => setOpen(!open)}
                 >
