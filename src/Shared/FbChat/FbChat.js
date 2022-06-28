@@ -7,7 +7,6 @@ const FbChat = () => {
       <MessengerChat
         pageId="109316913755115"
         themeColor={"#000000"}
-        bottomSpacing={300}
       />
       ,
     </>
