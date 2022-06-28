@@ -10,6 +10,7 @@ import Footer from "./Shared/Footer/Footer";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Contact from "./pages/Contact/Contact";
 import Pricing from "./pages/Pricing/Pricing";
+import FbChat from "./Shared/FbChat/FbChat";
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
+        <FbChat />
       </Router>
     </div>
   );
